@@ -1,0 +1,25 @@
+{
+  "name": "hapi-backend",
+  "version": "1.0.0",
+  "description": "hapi test backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jagan",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/glue": "^7.0.0",
+    "@hapi/hapi": "^19.2.0",
+    "@hapi/inert": "^6.0.1",
+    "@hapi/joi": "^17.1.1",
+    "@hapi/vision": "^6.0.0",
+    "dotenv": "^8.2.0",
+    "hapi-cors": "^1.0.3",
+    "hapi-mongodb": "^9.0.1",
+    "hapi-swagger": "^13.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.25"
+  }
+}
